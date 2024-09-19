@@ -8,7 +8,9 @@
 :root {
     --grey-800: #1e293b;
     --grey-600: #475569;
-    --purple: #7c3aed
+    --purple: #7c3aed;
+    --grey-200: #e2e8f0;
+    --grey-400: #94a3b8;
 }
 
 header {
@@ -45,6 +47,8 @@ main {
 .input-box {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .input-box div {
@@ -57,6 +61,21 @@ main {
     font-size: 0.875rem;
     color: #1e293b;
     font-weight: 600;
+}
+
+.login input {
+    padding: 1rem 0.75rem;
+    border: 1px solid var(--grey-200);
+    border-radius: 0.5rem;
+}
+
+.login input::placeholder {
+    color: var(--grey-400);
+}
+
+.login input:hover,
+.login input:focus {
+    outline: 1px solid #7c3aed;
 }
 
 .login a {
