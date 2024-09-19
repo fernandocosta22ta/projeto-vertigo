@@ -90,6 +90,7 @@ main {
 }
 
 .login button {
+    margin-bottom: 2rem;
     margin-top: 1rem;
     padding-block: 1rem;
     width: 100%;
@@ -100,4 +101,13 @@ main {
     font-size: 1rem;
     font-weight: 700;
     color: #fff;
+}
+
+.login > p {
+    color: var(--grey-600);
+}
+
+.login > p a {
+    font-weight: 700;
+    font-size: 1rem;
 }
